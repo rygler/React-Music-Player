@@ -19,8 +19,7 @@ const Player = ({
   setSongs,
   activeLibraryHandler,
 }) => {
-  // Event Handlers
-
+  // Handler
   const playSongHandler = () => {
     if (isPlaying) {
       audioRef.current.pause();

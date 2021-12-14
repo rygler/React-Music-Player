@@ -8,7 +8,7 @@ const LibrarySong = ({
   isPlaying,
   setSongs,
 }) => {
-  // Handlers
+  // Handler
   const songSelectHandler = async () => {
     await setCurrentSong(song);
 
